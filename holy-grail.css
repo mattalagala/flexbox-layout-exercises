@@ -3,40 +3,57 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
     border: 3px solid black;
+    max-width: 980px;
+    
 }
 
 header {
    
-    border: 3px solid black
+    border: 3px solid black;
+    text-align: center;
+    background-color: rgb(18, 158, 223);
+    
+    
 }
 
 main {
     display: flex;
     flex-direction: row;
     border: 3px solid black;
+    text-align: center;
+    
+
     
 }
 
 .left_main {
     border: 1px solid black;
     min-width: 150px;
+    text-align: center;
+    background-color: rgb(221, 120, 204);
 
 }
 .center_main {
+    
+    align-self: left;
+    text-align: center;
     border: 1px solid black;
-    align-self: center;
+    background-color: rgb(218, 183, 131);
+    
 
 }
+
 .right_main {
     border: 1px solid black;
     min-width: 150px;
-
+    background-color: rgb(221, 120, 204);
 }
 
 
 footer {
     border: 1px solid black;
+    text-align: center;
+    background-color: rgb(18, 158, 223);
 }
 

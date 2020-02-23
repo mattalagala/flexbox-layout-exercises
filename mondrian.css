@@ -8,6 +8,7 @@ section {
 .left {
     display: flex;
     background-color: cornflowerblue;
+    border: 2px solid black;
     flex: 1;
     flex-direction: column;
 }
@@ -15,43 +16,43 @@ section {
 .lrow1 {
 
     display: flex;
-    padding: 2px;
     flex: 1;
 }
 
 .row1SquareL {
 
-    background-color: crimson;
-    padding: 2px;
+    background-color: white;
+    border: 2px solid black;
     flex: 1;
 }
 
 .row1SquareR {
 
-    background-color: rgb(220, 167, 20);
-    padding: 2px;
+    background-color: white;
+    border: 2px solid black;
     flex-grow: 2;
 }
 
 .lrow2 {
 
     display: flex;
-    padding: 2px;
     flex: 1;
 }
 
 .row2SquareL {
    
-    height: 125px;
-    background-color: crimson;
-    border: 5px solid black;
+    /* height: 125px; */
+    background-color: white;
+    border: solid black;
+    border-width: 2px 2px 0 2px;
     flex: 1;
 }
 
 .row2SquareR {
-    height: 250px;
-    background-color: rgb(220, 167, 20);
-    padding: 2px;
+    /* height: 250px; */
+    background-color: red;
+    border: solid black;
+    border-width: 2px 2px 0px 2px;
     flex-grow: 4;
 }
 
@@ -59,27 +60,202 @@ section {
 .lrow3 {
 
     display: flex;
-    padding: 2px;
     flex: 1;
 }
 
 .row3SquareL {
    
-    height: 150px;
-    background-color: crimson;
-    padding: 2px;
+    /* height: 150px; */
+    background-color: white;
+    border: solid black;
+    border-width: 0px 2px 2px 2px;
     flex: 1;
 }
 
 .row3SquareR {
-    height: 150px;
-    background-color: rgb(220, 167, 20);
-    padding: 2px;
+    /* height: 150px; */
+    background-color: red;
+    border: solid black;
+    border-width: 0px 2px 0px 2px;
     flex-grow: 4;
 }
 
+.lrow4 {
 
+    display: flex;
+    flex: 1;
+}
 
+.row4SquareL {
+   
+    /* height: 150px; */
+    background-color: white;
+    border: solid black;
+    border-width: 2px 2px 0px 2px;
+    flex: 1;
+}
+
+.row4SquareR {
+    /* height: 150px; */
+    background-color: red;
+    border: solid black;
+    border-width: 0px 2px 0px 2px;
+    flex-grow: 4;
+}
+
+.lrow5 {
+
+    display: flex;
+    flex: 1;
+}
+
+.row5SquareL {
+   
+    /* height: 150px; */
+    background-color: white;
+    border: solid black;
+    border-width: 0px 2px 0px 2px;
+    flex: 1;
+}
+
+.row5SquareR {
+    /* height: 150px; */
+    background-color: red;
+    border: solid black;
+    border-width: 0px 2px 2px 2px;
+    flex-grow: 4;
+}
+
+.lrow6 {
+
+    display: flex;
+    flex: 1;
+}
+
+.row6SquareL {
+   
+    /* height: 150px; */
+    background-color: white;
+    border: solid black;
+    border-width: 0px 2px 2px 2px;
+    flex: 1;
+}
+
+.row6SquareC {
+    background-color: black;
+    border: solid black;
+    border-width: 2px 2px 2px 0px;
+    flex-grow: 2;
+
+}
+
+.row6SquareR {
+    /* height: 150px; */
+    background-color: white;
+    border: 2px solid black;
+    flex-grow: 2;
+}
+
+.lrow7 {
+
+    display: flex;
+    flex: 1;
+}
+
+.row7SquareL {
+   
+    background-color: yellow;
+    border: solid black;
+    border-width: 2px 2px 0px 2px;
+    flex: 1;
+}
+
+.row7SquareC {
+    background-color: black;
+    border: solid black;
+    border-width: 2px 2px 2px 0px;
+    flex-grow: 2;
+
+}
+
+.row7SquareR {
+    /* height: 150px; */
+    background-color: white;
+    border: 2px solid black;
+    flex-grow: 2;
+}
+
+.lrow8 {
+
+    display: flex;
+    flex: 1;
+}
+
+.row8SquareL {
+   
+    background-color: yellow;
+    border: solid black;
+    border-width: 0px 1px 0px 2px;
+    flex: 1;
+}
+
+.row8SquareC {
+    background-color: white;
+    border: solid black;
+    border-width: 2px 2px 2px 3px;
+    flex-grow: 2;
+
+}
+
+.row8SquareR {
+    /* height: 150px; */
+    background-color: black;
+    border: 2px solid black;
+    flex-grow: 2;
+}
+
+.lrow9 {
+
+    display: flex;
+    flex: 1;
+}
+
+.row9SquareL {
+   
+    /* height: 150px; */
+    background-color: yellow;
+    border: solid black;
+    border-width: 0px 2px 2px 2px;
+    flex: 1;
+}
+
+.row9SquareR {
+    /* height: 150px; */
+    background-color: rgb(220, 167, 20);
+    border: 2px solid black;
+    flex-grow: 4;
+}
+
+.lrow10 {
+
+    display: flex;
+    flex: 1;
+}
+
+.row10SquareL {
+   
+    /* height: 150px; */
+    background-color: crimson;
+    border: 2px solid black;
+    flex: 1;
+}
+
+.row10SquareR {
+    /* height: 150px; */
+    background-color: rgb(220, 167, 20);
+    border: 2px solid black;
+    flex-grow: 4;
+}
 
 .center {
 
@@ -94,3 +270,4 @@ section {
     flex: 1;
 }
 
+/* ----------------------- Middle --------------------------- */

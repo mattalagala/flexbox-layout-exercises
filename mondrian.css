@@ -1,273 +1,888 @@
 section {
     display: flex;
-    width: 1131px;
-    height: 707px;
-    background-color: chocolate;
-    
+    width: 1136px;
+    height: 715px;
+    padding: 0px;
+    margin: 0px;
 }
 .left {
     display: flex;
-    background-color: cornflowerblue;
-    border: 2px solid black;
+    /* background-color: cornflowerblue; */
+    border: solid black;
+    border-width: 2px 3px 2px 2px;
     flex: 1;
     flex-direction: column;
+    padding: 0px;
+    margin: 0px;
 }
 
-.lrow1 {
+        .lrow1 {
 
-    display: flex;
-    flex: 1;
-}
+            display: flex;
+            flex: 1;
+        }
 
-.row1SquareL {
+                .row1SquareL {
 
-    background-color: white;
-    border: 2px solid black;
-    flex: 1;
-}
+                    background-color: white;
+                    border: 2px solid black;
+                    flex: 1;
+                }
 
-.row1SquareR {
+                .row1SquareR {
 
-    background-color: white;
-    border: 2px solid black;
-    flex-grow: 2;
-}
+                    background-color: white;
+                    border: 2px solid black;
+                    flex-grow: 2;
+                }
 
-.lrow2 {
+        .lrow2 {
 
-    display: flex;
-    flex: 1;
-}
+            display: flex;
+            flex: 1;
+        }
 
-.row2SquareL {
-   
-    /* height: 125px; */
-    background-color: white;
-    border: solid black;
-    border-width: 2px 2px 0 2px;
-    flex: 1;
-}
+                .row2SquareL {
+                
+                    /* height: 125px; */
+                    background-color: white;
+                    border: solid black;
+                    border-width: 2px 2px 0px 2px;
+                    flex: 1;
+                }
 
-.row2SquareR {
-    /* height: 250px; */
-    background-color: red;
-    border: solid black;
-    border-width: 2px 2px 0px 2px;
-    flex-grow: 4;
-}
+                .row2SquareR {
+                    /* height: 250px; */
+                    background-color: red;
+                    border: solid black;
+                    border-width: 2px 2px 0px 2px;
+                    flex-grow: 4;
+                }
 
 
-.lrow3 {
+        .lrow3 {
 
-    display: flex;
-    flex: 1;
-}
+            display: flex;
+            flex: 1;
+        }
 
-.row3SquareL {
-   
-    /* height: 150px; */
-    background-color: white;
-    border: solid black;
-    border-width: 0px 2px 2px 2px;
-    flex: 1;
-}
+                .row3SquareL {
+                
+                    /* height: 150px; */
+                    background-color: white;
+                    border: solid black;
+                    border-width: 0px 2px 2px 2px;
+                    flex: 1;
+                }
 
-.row3SquareR {
-    /* height: 150px; */
-    background-color: red;
-    border: solid black;
-    border-width: 0px 2px 0px 2px;
-    flex-grow: 4;
-}
+                .row3SquareR {
+                    /* height: 150px; */
+                    background-color: red;
+                    border: solid black;
+                    border-width: 0px 2px 0px 2px;
+                    flex-grow: 4;
+                }
 
-.lrow4 {
+        .lrow4 {
 
-    display: flex;
-    flex: 1;
-}
+            display: flex;
+            flex: 1;
+        }
 
-.row4SquareL {
-   
-    /* height: 150px; */
-    background-color: white;
-    border: solid black;
-    border-width: 2px 2px 0px 2px;
-    flex: 1;
-}
+                .row4SquareL {
+                
+                    /* height: 150px; */
+                    background-color: white;
+                    border: solid black;
+                    border-width: 2px 2px 0px 2px;
+                    flex: 1;
+                }
 
-.row4SquareR {
-    /* height: 150px; */
-    background-color: red;
-    border: solid black;
-    border-width: 0px 2px 0px 2px;
-    flex-grow: 4;
-}
+                .row4SquareR {
+                    /* height: 150px; */
+                    background-color: red;
+                    border: solid black;
+                    border-width: 0px 2px 0px 2px;
+                    flex-grow: 4;
+                }
 
-.lrow5 {
+        .lrow5 {
 
-    display: flex;
-    flex: 1;
-}
+            display: flex;
+            flex: 1;
+        }
 
-.row5SquareL {
-   
-    /* height: 150px; */
-    background-color: white;
-    border: solid black;
-    border-width: 0px 2px 0px 2px;
-    flex: 1;
-}
+                .row5SquareL {
+                
+                    /* height: 150px; */
+                    background-color: white;
+                    border: solid black;
+                    border-width: 0px 2px 0px 2px;
+                    flex: 1;
+                }
 
-.row5SquareR {
-    /* height: 150px; */
-    background-color: red;
-    border: solid black;
-    border-width: 0px 2px 2px 2px;
-    flex-grow: 4;
-}
+                .row5SquareR {
+                    /* height: 150px; */
+                    background-color: red;
+                    border: solid black;
+                    border-width: 0px 2px 2px 2px;
+                    flex-grow: 4;
+                }
 
-.lrow6 {
+        .lrow6 {
 
-    display: flex;
-    flex: 1;
-}
+            display: flex;
+            flex: 1;
+        }
 
-.row6SquareL {
-   
-    /* height: 150px; */
-    background-color: white;
-    border: solid black;
-    border-width: 0px 2px 2px 2px;
-    flex: 1;
-}
+                .row6SquareL {
+                
+                    /* height: 150px; */
+                    background-color: white;
+                    border: solid black;
+                    border-width: 0px 2px 2px 2px;
+                    flex: 1;
+                }
 
-.row6SquareC {
-    background-color: black;
-    border: solid black;
-    border-width: 2px 2px 2px 0px;
-    flex-grow: 2;
+                .row6SquareC {
+                    background-color: black;
+                    border: solid black;
+                    border-width: 2px 2px 2px 0px;
+                    flex-grow: 2;
 
-}
+                }
 
-.row6SquareR {
-    /* height: 150px; */
-    background-color: white;
-    border: 2px solid black;
-    flex-grow: 2;
-}
+                .row6SquareR {
+                    /* height: 150px; */
+                    background-color: white;
+                    border: 2px solid black;
+                    flex-grow: 2;
+                }
 
-.lrow7 {
+        .lrow7 {
 
-    display: flex;
-    flex: 1;
-}
+            display: flex;
+            flex: 1;
+        }
 
-.row7SquareL {
-   
-    background-color: yellow;
-    border: solid black;
-    border-width: 2px 2px 0px 2px;
-    flex: 1;
-}
+                .row7SquareL {
+                
+                    background-color: yellow;
+                    border: solid black;
+                    border-width: 2px 2px 0px 2px;
+                    flex: 1;
+                }
 
-.row7SquareC {
-    background-color: black;
-    border: solid black;
-    border-width: 2px 2px 2px 0px;
-    flex-grow: 2;
+                .row7SquareC {
+                    background-color: black;
+                    border: solid black;
+                    border-width: 2px 2px 2px 0px;
+                    flex-grow: 2;
 
-}
+                }
 
-.row7SquareR {
-    /* height: 150px; */
-    background-color: white;
-    border: 2px solid black;
-    flex-grow: 2;
-}
+                .row7SquareR {
+                    /* height: 150px; */
+                    background-color: white;
+                    border: 2px solid black;
+                    flex-grow: 2;
+                }
 
-.lrow8 {
+        .lrow8 {
 
-    display: flex;
-    flex: 1;
-}
+            display: flex;
+            flex: 1;
+        }
 
-.row8SquareL {
-   
-    background-color: yellow;
-    border: solid black;
-    border-width: 0px 1px 0px 2px;
-    flex: 1;
-}
+                .row8SquareL {
+                
+                    background-color: yellow;
+                    border: solid black;
+                    border-width: 0px 1px 0px 2px;
+                    flex: 1;
+                }
 
-.row8SquareC {
-    background-color: white;
-    border: solid black;
-    border-width: 2px 2px 2px 3px;
-    flex-grow: 2;
+                .row8SquareC {
+                    background-color: white;
+                    border: solid black;
+                    border-width: 2px 2px 0px 3px;
+                    flex-grow: 2;
 
-}
+                }
 
-.row8SquareR {
-    /* height: 150px; */
-    background-color: black;
-    border: 2px solid black;
-    flex-grow: 2;
-}
+                .row8SquareR {
+                    /* height: 150px; */
+                    background-color: black;
+                    border: 2px solid black;
+                    flex-grow: 2;
+                }
 
-.lrow9 {
+        .lrow9 {
 
-    display: flex;
-    flex: 1;
-}
+            display: flex;
+            flex: 1;
+        }
 
-.row9SquareL {
-   
-    /* height: 150px; */
-    background-color: yellow;
-    border: solid black;
-    border-width: 0px 2px 2px 2px;
-    flex: 1;
-}
+                .row9SquareL {
+                
+                    /* height: 150px; */
+                    background-color: yellow;
+                    border: solid black;
+                    border-width: 0px 2px 2px 2px;
+                    flex: 1;
+                }
 
-.row9SquareR {
-    /* height: 150px; */
-    background-color: rgb(220, 167, 20);
-    border: 2px solid black;
-    flex-grow: 4;
-}
+                /* .row9SquareC {
 
-.lrow10 {
+                    background-color:white;
+                    border: solid black;
+                    border-width: 0px 0px 2px 2px;
+                    flex-grow: 1;
 
-    display: flex;
-    flex: 1;
-}
+                } */
 
-.row10SquareL {
-   
-    /* height: 150px; */
-    background-color: crimson;
-    border: 2px solid black;
-    flex: 1;
-}
+                .row9SquareR {
+                    /* height: 150px; */
+                    background-color: white;
+                    border: solid black;
+                    border-width: 0px 1px 2px 2px;
+                    flex-grow: 2;
+                }
 
-.row10SquareR {
-    /* height: 150px; */
-    background-color: rgb(220, 167, 20);
-    border: 2px solid black;
-    flex-grow: 4;
-}
+                            .row9SquareRL {
+                            
+                                background-color:yellow;
+                                border: solid black;
+                                border-width: 0px 2px 0px 2px;
+                                flex-grow: 1;
+
+                            }
+
+                            .row9SquareRR {
+                            
+                                background-color:white;
+                                border: solid black;
+                                border-width: 0px 2px 0px 2px;
+                                flex-grow: 1;
+
+                            }
+
+
+        .lrow10 {
+
+            display: flex;
+            flex: 1;
+        }
+
+                .row10SquareL {
+                
+                    /* height: 150px; */
+                    background-color: white;
+                    border: 2px solid black;
+                    flex: 3;
+                }
+                .row10SquareC {
+
+                    background-color: yellow;
+                    border: 2px solid black;
+                    border-width: 0px 2px 2px 2px;
+                    flex-grow: 1;
+
+                }
+
+                .row10SquareR {
+                    /* height: 150px; */
+                    background-color: white;
+                    border: solid black;
+                    border-width: 0px 2px 2px 2px;
+                    flex-grow: 1;
+            }
 
 .center {
-
     display: flex;
-    background-color: rgb(58, 161, 89);
+    /* background-color: cornflowerblue; */
+    border: solid black;
+    border-width: 2px 0px 2px 0px;
     flex: 1;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
 }
+
+        .crow1 {
+
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+        }
+
+                .crow1SquareL {
+
+                    background-color: yellow;
+                    border: solid black;
+                    border-width: 2px 2px 2px 2px;
+                    flex: 1;
+                }
+
+                .crow1SquareR {
+
+                    background-color: rgb(0, 119, 255);
+                    border: solid black;
+                    border-width: 2px 2px 0px 2px;
+                    flex: 1;
+                }
+
+        .crow2 {
+
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+        }
+
+                .crow2SquareL {
+                
+                    /* height: 125px; */
+                    background-color: yellow;
+                    border: solid black;
+                    border-width: 2px 2px 0px 2px;
+                    flex: 1;
+                }
+
+                .crow2SquareR {
+                    /* height: 250px; */
+                    background-color: rgb(0, 119, 255);
+                    border: solid black;
+                    border-width: 0px 2px 2px 2px;
+                    flex: 1;
+                }
+
+
+        .crow3 {
+
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+        }
+
+                .crow3SquareL {
+                
+                    /* height: 150px; */
+                    background-color: yellow;
+                    border: solid black;
+                    border-width: 0px 2px 2px 2px;
+                    flex: 1;
+                }
+
+                .crow3SquareR {
+                    /* height: 150px; */
+                    background-color: red;
+                    border: solid black;
+                    border-width: 2px 2px 0px 2px;
+                    flex: 1;
+                }
+
+        .crow4 {
+
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+        }
+                .crow4SquareL {
+                    background-color: white;
+                    border: solid black;
+                    border-width: 2px 2px 0px 2px;
+                    flex: 1;
+                }
+                .crow4SquareC {
+                
+                    /* height: 150px; */
+                    background-color: white;
+                    border: solid black;
+                    border-width: 2px 2px 0px 2px;
+                    flex: 1;
+                }
+
+                .crow4SquareR {
+                    /* height: 150px; */
+                    background-color: red;
+                    border: solid black;
+                    border-width: 0px 2px 2px 2px;
+                    flex: 2;
+                }
+
+        .crow5 {
+
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+        }
+
+                .crow5SquareL {
+                
+                    /* height: 150px; */
+                    background-color: white;
+                    border: solid black;
+                    border-width: 0px 2px 2px 2px;
+                    flex: 1;
+                }
+                .crow5SquareC {
+                    background-color: white;
+                    border: solid black;
+                    border-width: 0px 2px 2px 2px;
+                    flex: 1;
+                }
+
+                .crow5SquareR {
+                    /* height: 150px; */
+                    background-color: white;
+                    border: solid black;
+                    border-width: 2px 2px 2px 2px;
+                    flex-grow: 2;
+                }
+
+        .crow6 {
+
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+        }
+
+                .crow6SquareL {
+                    /* height: 150px; */
+                    background-color: white;
+                    border: 2px solid black;
+                    flex: 2;
+                }
+
+                .crow6SquareC {
+                    background-color: white;
+                    border: solid black;
+                    border-width: 2px 2px 0px 2px;
+                    flex: 1;
+
+                }
+
+                .crow6SquareR {
+                    /* height: 150px; */
+                    background-color: white;
+                    border: solid black;
+                    border-width: 2px 2px 0px 2px;
+                    flex: 1;
+                }
+
+        .crow7 {
+
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+        }
+
+                .crow7SquareL {
+                
+                    background-color: rgb(0, 119, 255);
+                    border: solid black;
+                    border-width: 2px 2px 0px 2px;
+                    flex: 2;
+                }
+
+                .crow7SquareC {
+                    background-color: white;
+                    border: solid black;
+                    border-width: 0px 2px 2px 2px;
+                    flex: 1;
+
+                }
+
+                .crow7SquareR {
+                    /* height: 150px; */
+                    background-color: white;
+                    border: solid black;
+                    border-width: 0px 2px 2px 2px;
+                    flex: 1;
+                }
+
+        .crow8 {
+
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+        }
+
+                .crow8SquareL {
+                
+                    background-color:rgb(0, 119, 255);
+                    border: solid black;
+                    border-width: 0px 1px 0px 2px;
+                    flex: 1;
+                }
+
+                .crow8SquareR {
+                    /* height: 150px; */
+                    background-color: yellow;
+                    border: solid black;
+                    border-width: 2px 2px 0px 2px;
+                    flex: 1;
+                }
+
+        .crow9 {
+
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+        }
+
+                .crow9SquareL {
+                
+                    /* height: 150px; */
+                    background-color: red;
+                    border: solid black;
+                    border-width: 2px 2px 0px 2px;
+                    flex: 1;
+                }
+
+                .crow9SquareR {
+
+                    background-color: yellow;
+                    border: solid black;
+                    border-width: 0px 2px 2px 2px;
+                    flex: 1;
+
+                }
+
+        .crow10 {
+
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+        }
+
+                .crow10SquareL {
+                
+                    /* height: 150px; */
+                    background-color: red;
+                    border: solid black;
+                    border: solid black;
+                    border-width: 0px 2px 2px 2px;
+                    flex: 2;
+                }
+                .crow10SquareC {
+
+                    background-color: white;
+                    border: solid black;
+                    border-width: 2px 2px 2px 2px;
+                    flex: 1;
+
+                }
+
+                .crow10SquareR {
+                    /* height: 150px; */
+                    background-color: black;
+                    border: solid black;
+                    border-width: 0px 2px 2px 2px;
+                    flex: 1;
+            }
+
 .right {
-
     display: flex;
-    background-color: rgb(21, 53, 94);
+    /* background-color: cornflowerblue; */
+    border: solid black;
+    border-width: 2px 2px 2px 3px;
     flex: 1;
+    flex-direction: column-reverse;
+    
 }
 
-/* ----------------------- Middle --------------------------- */
+        .rrow1 {
+
+            display: flex;
+            flex-direction: row-reverse;
+            flex: 1;
+        }
+
+                .Rrow1SquareL {
+
+                    background-color: white;
+                    border: solid black;
+                    border-width: 2px 2px 2px 2px;
+                    flex: 1;
+                }
+
+                .Rrow1SquareR {
+
+                    background-color: white;
+                    border: 2px solid black;
+                    flex-grow: 2;
+                }
+
+        .rrow2 {
+
+            display: flex;
+            flex-direction: row-reverse;
+            flex: 1;
+        }
+
+                .Rrow2SquareL {
+                
+                    /* height: 125px; */
+                    background-color: white;
+                    border: solid black;
+                    border-width: 0px 2px 2px 2px;
+                    flex: 1;
+                }
+
+                .Rrow2SquareR {
+                    /* height: 250px; */
+                    background-color: rgb(0, 119, 255);
+                    border: solid black;
+                    border-width: 0px 2px 2px 2px;
+                    flex-grow: 4;
+                }
+
+
+        .rrow3 {
+
+            display: flex;
+            flex-direction: row-reverse;
+            flex: 1;
+        }
+
+                .Rrow3SquareL {
+                
+                    /* height: 150px; */
+                    background-color: white;
+                    border: solid black;
+                    border-width: 2px 2px 0px 2px;
+                    flex: 1;
+                }
+
+                .Rrow3SquareR {
+                    /* height: 150px; */
+                    background-color: rgb(0, 119, 255);
+                    border: solid black;
+                    border-width: 0px 2px 0px 2px;
+                    flex-grow: 4;
+                }
+
+        .rrow4 {
+
+            display: flex;
+            flex-direction: row-reverse;
+            flex: 1;
+        }
+
+                .Rrow4SquareL {
+                
+                    /* height: 150px; */
+                    background-color: white;
+                    border: solid black;
+                    border-width: 0px 2px 2px 2px;
+                    flex: 1;
+                }
+
+                .Rrow4SquareR {
+                    /* height: 150px; */
+                    background-color: rgb(0, 119, 255);
+                    border: solid black;
+                    border-width: 0px 2px 0px 2px;
+                    flex-grow: 4;
+                }
+
+        .rrow5 {
+
+            display: flex;
+            flex-direction: row-reverse;
+            flex: 1;
+        }
+
+                .Rrow5SquareL {
+                
+                    /* height: 150px; */
+                    background-color: white;
+                    border: solid black;
+                    border-width: 0px 2px 0px 2px;
+                    flex: 1;
+                }
+
+                .Rrow5SquareR {
+                    /* height: 150px; */
+                    background-color: rgb(0, 119, 255);
+                    border: solid black;
+                    border-width: 2px 2px 0px 2px;
+                    flex-grow: 4;
+                }
+
+        .rrow6 {
+
+            display: flex;
+            flex-direction: row-reverse;
+            flex: 1;
+        }
+
+                .Rrow6SquareL {
+                
+                    /* height: 150px; */
+                    background-color: white;
+                    border: solid black;
+                    border-width: 2px 2px 0px 2px;
+                    flex: 1;
+                }
+
+                .Rrow6SquareC {
+                    background-color: black;
+                    border: solid black;
+                    border-width: 2px 2px 2px 0px;
+                    flex-grow: 2;
+
+                }
+
+                .Rrow6SquareR {
+                    /* height: 150px; */
+                    background-color: white;
+                    border: 2px solid black;
+                    flex-grow: 2;
+                }
+
+        .rrow7 {
+
+            display: flex;
+            flex-direction: row-reverse;
+            flex: 1;
+        }
+
+                .Rrow7SquareL {
+                
+                    background-color: yellow;
+                    border: solid black;
+                    border-width: 0px 2px 2px 2px;
+                    flex: 1;
+                }
+
+                .Rrow7SquareC {
+                    background-color: black;
+                    border: solid black;
+                    border-width: 2px 2px 2px 0px;
+                    flex-grow: 2;
+
+                }
+
+                .Rrow7SquareR {
+                    /* height: 150px; */
+                    background-color: white;
+                    border: 2px solid black;
+                    flex-grow: 2;
+                }
+
+        .rrow8 {
+
+            display: flex;
+            flex-direction: row-reverse;
+            flex: 1;
+        }
+
+                .Rrow8SquareL {
+                
+                    background-color: yellow;
+                    border: solid black;
+                    border-width: 0px 1px 0px 2px;
+                    flex: 1;
+                }
+
+                .Rrow8SquareC {
+                    background-color: white;
+                    border: solid black;
+                    border-width: 0px 2px 0px 3px;
+                    flex: 2;
+
+                }
+
+                .Rrow8SquareR {
+                    /* height: 150px; */
+                    background-color: black;
+                    border: 2px solid black;
+                    flex: 2;
+                }
+
+        .rrow9 {
+
+            display: flex;
+            flex-direction: row-reverse;
+            flex: 1;
+        }
+
+                .Rrow9SquareL {
+                
+                    /* height: 150px; */
+                    background-color: yellow;
+                    border: solid black;
+                    border-width: 2px 2px 0px 2px;
+                    flex: 1;
+                }
+
+                .Rrow9SquareC {
+
+                    background-color:white;
+                    border: solid black;
+                    border-width: 2px 2px 0px 0px;
+                    flex-grow: 1;
+
+                }
+
+                .Rrow9SquareR {
+                    /* height: 150px; */
+                    background-color: white;
+                    border: solid black;
+                    border-width: 2px 0px 0px 2px;
+                    flex-grow: 1;
+                }
+
+                            .Rrow9SquareRL {
+                            
+                                background-color:yellow;
+                                border: solid black;
+                                border-width: 2px 2px 2px 0px;
+                                flex-grow: 1;
+
+                            }
+
+                            .Rrow9SquareRR {
+                            
+                                background-color:yellow;
+                                border: solid black;
+                                border-width: 2px 0px 2px 2px;
+                                flex-grow: 1;
+
+                            }
+
+
+        .rrow10 {
+
+            display: flex;
+            flex-direction: row-reverse;
+            flex: 1;
+        }
+
+                .Rrow10SquareL {
+                
+                    /* height: 150px; */
+                    background-color: white;
+                    border: 2px solid black;
+                    flex: 3;
+                }
+                .Rrow10SquareC {
+
+                    background-color: black;
+                    border: solid black;
+                    border-width: 2px 2px 2px 2px;
+                    flex: 1;
+
+                }
+
+                .Rrow10SquareR {
+                    /* height: 150px; */
+                    background-color: yellow;
+                    border: solid black;
+                    border-width: 2px 2px 2px 2px;
+                    flex-grow: 1;
+            }
+
+/* ----------------------- END --------------------------- */
